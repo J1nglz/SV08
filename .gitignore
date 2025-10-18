@@ -1,0 +1,18 @@
+# Keep the repo clean
+*.zip
+*.log
+*.tmp
+*.old
+*.bak
+__pycache__/
+.env
+.env.*
+.venv/
+# Moonraker/Mainsail things we don't want
+../gcodes/
+../logs/
+../database/
+../timelapse/
+# Demon & KAMP caches/archives (keep actual .cfg)
+**/Previous_Demon_Macros/**
+**/Versions_&/**
